@@ -1,4 +1,4 @@
-defmodule ToolBox do
+defmodule N do
 
   def start do
     ensure_started :inets

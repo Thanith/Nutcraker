@@ -1,14 +1,14 @@
-defmodule ToolBox.Mixfile do
+defmodule N.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :toolbox,
+    [app: :nutcracker,
      version: "0.0.1",
      elixir: "~> 1.4",
      deps: deps(),
      package: [
        contributors: ["Thanith"],
-       links: %{github: "https://github.com/Thanith/toolbox"}
+       links: %{github: "https://github.com/Thanith/nutcracker"}
      ],
      description: """
       Elixir dev ToolBox

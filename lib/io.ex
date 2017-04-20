@@ -1,6 +1,6 @@
-defmodule ToolBox.IO do
+defmodule N.IO do
 
-  def inspect(element) do
+  def i(element) do
     IO.inspect "---------- ---------- ----------"
     IO.inspect element
     IO.inspect "---------- ---------- ----------"
